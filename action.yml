@@ -1,0 +1,8 @@
+name: update license year shell action
+description: update license year shell action
+author: RekGRpth
+runs:
+  using: composite
+  steps:
+    - run: "${GITHUB_ACTION_PATH}/action.sh"
+      shell: sh
